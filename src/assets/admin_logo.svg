@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <!-- Circular Tech Element -->
+  <g transform="translate(300, 70)">
+    <circle cx="0" cy="0" r="45" fill="url(#tech-circle-gradient)" />
+    <circle cx="0" cy="0" r="35" fill="white" />
+    <circle cx="0" cy="0" r="25" fill="url(#tech-circle-gradient)" />
+    <!-- Inner Lines -->
+    <line x1="-25" y1="0" x2="25" y2="0" stroke="white" stroke-width="4" />
+    <line x1="0" y1="-25" x2="0" y2="25" stroke="white" stroke-width="4" />
+  </g>
+
+  <!-- Modernized Nova Text -->
+  <text x="40" y="90" font-family="Arial, sans-serif" font-size="50" fill="url(#nova-gradient)" font-weight="bold" letter-spacing="2">
+    Nova
+  </text>
+
+  <!-- Modernized Connect Text -->
+  <text x="160" y="90" font-family="Arial, sans-serif" font-size="50" fill="url(#connect-gradient)" font-weight="bold" letter-spacing="2">
+    Connect
+  </text>
+
+  <!-- Dashboard Panel Text -->
+  <text x="40" y="120" font-family="Arial, sans-serif" font-size="24" fill="#555555" font-weight="normal" letter-spacing="1">
+    Dashboard Panel
+  </text>
+
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="nova-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0066ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#33ccff;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="connect-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#003399;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ccff;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="tech-circle-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003399;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
