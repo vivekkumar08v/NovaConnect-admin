@@ -26,7 +26,7 @@ const App = () => {
     <Navbar/>
     <div className='flex items-start'>
       <Sidebar/>
-      <Routes>
+      <Routes basename ="">
         <Route path='/login' element={<Login/>} />
         {/* Admin Route */}
         <Route path='/' element={<></>}/>
